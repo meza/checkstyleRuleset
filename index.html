@@ -86,8 +86,19 @@ To ease the pain, I usually provide an IDE setup with the rule set, so most of t
 <h3>IntelliJ IDEA Setup</h3>
 
 <ol>
-<li>Download CheckStyle-IDEA plugin</li>
-<li>Add <a href="https://github.com/meza/checkstyleRuleset/blob/master/src/main/resources/checkstyle.xml">https://github.com/meza/checkstyleRuleset/blob/master/src/main/resources/checkstyle.xml</a> as a HTTP ruleset</li>
+<li>Download CheckStyle-IDEA plugin
+<img src="images/howto/01-install_plugin.PNG"/>
+</li>
+<li>Locate the settings of the plugin
+<img src="images/howto/02-locate_settings.PNG"/>
+</li>
+<li>Add <a target="_blank" href="https://github.com/meza/checkstyleRuleset/blob/master/src/main/resources/checkstyle.xml">the checkstyle.xml</a> as a HTTP ruleset
+<img src="images/howto/03-set_ruleset.PNG"/></li>
+<li>Download the IntelliJ IDEA formatting file from: <a href="https://raw.github.com/meza/checkstyleRuleset/master/src/main/resources/ides/intellij/config/codestyles/meza.xml" target="_blank">here</a>, and place it under &lt;user_home&gt;/.IntellijIdea&lt;version&gt;/config/codestyles</li>
+<li>Restart IntelliJ</li>
+<li>Set the newly downloaded formatter to be active for your project
+<img src="images/howto/04-set_formatter.PNG"/></li>
+</li>
 </ol>
       </section>
     </div>
